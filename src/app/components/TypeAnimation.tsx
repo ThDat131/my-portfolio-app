@@ -5,11 +5,8 @@ export default function TypeAnimation() {
   return (
     <Component
       sequence={[
-        'Frontend Developer',
-        300,
-        'Backend Developer',
-        300,
-        'Full-stack Developer',
+        1000,
+        'Fullstack Developer',
       ]}
       wrapper='span'
       cursor={true}

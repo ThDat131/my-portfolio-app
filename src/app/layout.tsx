@@ -30,7 +30,9 @@ export default function RootLayout({
       </head>
       <body>
         <Header />
-        <main className={`${nexaLight.variable} ${nexaBold.variable}`}>
+        <main
+          className={`${nexaLight.variable} ${nexaBold.variable} mt-[5vh] h-[95vh] snap-y snap-mandatory overflow-y-scroll scroll-smooth`}
+        >
           {children}
         </main>
       </body>

@@ -9,7 +9,7 @@ import { headerItems } from './constant';
 
 const Header = () => {
   return (
-    <div className='w-full flex justify-end px-12'>
+    <div className='w-full flex justify-end px-12 bg-white fixed -top-0 left-0 right-0 h-[5vh]'>
       <NavigationMenu>
         <NavigationMenuList>
           {headerItems.map((item) => (
